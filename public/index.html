@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Clientes</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <h1>Registrar Cliente</h1>
+
+        <form id="client-form">
+            <input type="hidden" id="client-id" />
+
+            <label>
+                Nome
+                <input type="text" id="nome" name="nome" required />
+            </label>
+
+            <label>
+                Telefone
+                <input type="tel" id="telefone" name="telefone" required />
+            </label>
+
+            <label>
+                Endereço
+                <input type="text" id="endereco" name="endereco" required />
+            </label>
+
+            <label>
+                Email
+                <input type="email" id="email" name="email" required />
+            </label>
+
+            <div class="form-actions">
+                <button type="submit" id="submit-btn">Enviar</button>
+                <button type="reset" id="reset-btn">Limpar</button>
+            </div>
+        </form>
+
+        <div id="message" class="message"></div>
+
+        <section>
+            <h2>Clientes cadastrados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Email</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="client-list"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

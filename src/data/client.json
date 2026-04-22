@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "João",
+        "telefone": "(81) 99999-9999",
+        "endereco": "Rua do bom Jesus.",
+        "email": "joao@hotmail.com"
+    },
+    {
+        "id": 2,
+        "nome": "lucas",
+        "telefone": 999999999,
+        "endereco": "Rua A, 123",
+        "email": "lucas@example.com"
+    },
+    {
+        "id": 3,
+        "nome": "lyniker",
+        "telefone": 888888888,
+        "endereco": "rua feliz natal",
+        "email": "lyniker@hotmail.com"
+    }
+]
